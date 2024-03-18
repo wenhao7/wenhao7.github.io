@@ -1,0 +1,21 @@
+---
+layout: default
+---
+    
+<h2> List of posts under category: {{ page.catname }} </h2>
+{% assign filtered_posts = site.posts | where: 'category', page.catname %}
+<ul>
+{% for post in filtered_posts %}
+    <li> 
+		<h3>
+			{{ post.date | date_to_string}} <a href="{{ post.url }}">{{ post.title }}</a>
+		</h3>
+		{%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+		</li>
+{% endfor %}
+</ul>
+<hr>
+    
+<h2> See all categories <a href="{{ baseurl }}/categories">here</a></h2>
