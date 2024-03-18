@@ -23,7 +23,7 @@ email: loowenhao@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Here is where I share and display my personal data science and programming projects. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wenhao7.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  wenhao7
 kaggle_username: wenhaoloo
