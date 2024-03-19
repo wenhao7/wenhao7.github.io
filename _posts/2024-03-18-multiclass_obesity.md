@@ -4,6 +4,7 @@ title:  "test!"
 date:   2024-03-18 16:06:08 +0800
 category: [data_analysis, machine_learning, visualization]
 tag: [information, test, scikit-learn, pipeline]
+summary: "testing my summary"
 ---
 ```python
 import pandas as pd
@@ -710,7 +711,7 @@ plt.show()
 
 
     
-![png](/images/output_14_0.png)
+![png](/images/multiclass_obesity/output_14_0.png)
     
 
 
@@ -733,7 +734,7 @@ plt.show() # Most samples are between 20~40 years old
 
 
     
-![png](/images/output_15_1.png)
+![png](/images/multiclass_obesity/output_15_1.png)
     
 
 
@@ -748,7 +749,7 @@ plt.show() # Different CAEC distribution for target classes, almost all obese sa
 
 
     
-![png](/images/output_16_0.png)
+![png](/images/multiclass_obesity/output_16_0.png)
     
 
 
@@ -763,7 +764,7 @@ plt.show() # Almost no obese samples fall under Walking/Motorbike/Bike
 
 
     
-![png](/images/output_17_0.png)
+![png](/images/multiclass_obesity/output_17_0.png)
     
 
 
@@ -778,7 +779,7 @@ plt.show() # Almost no obese sample monitor their calories consumption
 
 
     
-![png](/images/output_18_0.png)
+![png](/images/multiclass_obesity/output_18_0.png)
     
 
 
@@ -793,7 +794,7 @@ plt.show()
 
 
     
-![png](/images/output_19_0.png)
+![png](/images/multiclass_obesity/output_19_0.png)
     
 
 
