@@ -1,12 +1,19 @@
 ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: default
+exclude: false
 ---
-    
-<h2> List of posts under category: {{ page.catname }} </h2>
-{% assign filtered_posts = site.posts | where: 'category', page.catname %}
-<ul>
-{% for post in filtered_posts %}
-    <li>
+
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+	
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
@@ -35,8 +42,24 @@ layout: default
 			  {% endfor %}
 		</div>
       </li>
-	<br><hr><br>
 {% endfor %}
-</ul>
-    
-<h2> See all categories <a href="{{ baseurl }}/categories">here</a></h2>
+{%- endif -%}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Previous
+    </a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>

@@ -22,7 +22,10 @@ layout: default
 	  {% endif %}
 	  Categories: 
 	  {% for category in categories %}
-	  <a href="{{site.baseurl}}/category/{{category|slugize}}">{{category}}</a>
+	  <a href="{{site.baseurl}}/category/{{category|slugize}}">
+		<span style="background-color:#12486B; border:2px solid #12486B; border-radius: 5px; color:#F5FCCD">
+			{{category}}
+		</span></a>
 	  {% unless forloop.last %},&nbsp;{% endunless %}
 	  {% endfor %}
 	</div>
@@ -35,7 +38,10 @@ layout: default
 	<div class="post-tags">
 		{% for tag in page.tags %}
 		{% capture tag_name %}{{ tag }}{% endcapture %}
-		<a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{     tag_name }}</nobr></code>&nbsp;</a>
+		<a href="/tag/{{ tag_name }}">
+			<span style="background-color:#007F73; border:2px solid #007F73; border-radius: 5px; color:#F5FCCD">
+				{{	tag_name	}}
+			</span></a>
 	  {% endfor %}
 	</div>
   {%- if site.disqus.shortname -%}
