@@ -5,7 +5,9 @@
 layout: default
 exclude: false
 ---
-
+<!--
+{%- assign bannerImage = "/images/banners/banner2.png" -%}
+<img src="{{bannerImage | relative_url }}"> -->
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
@@ -14,6 +16,7 @@ exclude: false
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <li>
+		<img src="{{post.image | relative_url }}">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
@@ -35,9 +38,12 @@ exclude: false
 			  Categories: 
 			  {% for category in categories %}
 			  <a href="{{site.baseurl}}/category/{{category|slugize}}">
+				{{category}}
+				</a>
+			  <!--<a href="{{site.baseurl}}/category/{{category|slugize}}">
 				<span style="background-color:#12486B; border:2px solid #12486B; border-radius: 5px; color:#F5FCCD">
 					{{category}}
-				</span></a>
+				</span></a>-->
 			  {% unless forloop.last %},&nbsp;{% endunless %}
 			  {% endfor %}
 		</div>

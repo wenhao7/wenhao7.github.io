@@ -5,6 +5,7 @@ date:   2024-03-19 22:31:08 +0800
 category: [data_wrangling, data_analysis, visualization]
 tag: [numpy, pandas, seaborn, matplotlib, scipy, webscrape, statistics]
 summary: "This notebook explores a dataset containing the top 50 bestselling books on Amazon from the years 2010 to 2020 inclusive. Data was scraped from Amazon webpages and additional information was obtained from Google Books API."
+image: /images/banners/book.png
 ---
 
 ***

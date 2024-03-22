@@ -5,6 +5,7 @@ date:   2024-01-01 22:31:08 +0800
 category: [data_wrangling, data_analysis, visualization]
 tag: [numpy, pandas, seaborn, matplotlib, sql, statistics]
 summary: "In this notebook we will be analysing and discussing Covid-19 related data from all around the world, looking at how the pandemic hits different places differently and how to understand some statistics commonly quoted on mainstream/social media."
+image: /images/banners/coronavirus.png
 ---
 
 ***

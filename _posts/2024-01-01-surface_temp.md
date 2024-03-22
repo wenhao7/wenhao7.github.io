@@ -5,6 +5,7 @@ date:   2024-01-01 22:31:11 +0800
 category: [data_wrangling, data_analysis, visualization, machine_learning, deep_learning]
 tag: [numpy, pandas, seaborn, matplotlib, scikit-learn, tensorflow, statsmodel, forecast, regression]
 summary: "In this notebook we look at changes in surface temperature of areas around the world from 1961-2020 using a dataset from the Food and Agriculture Organization of the United Nations. The changes in temperature are with reference to a baseline climatology found within the reference period of 1951-1980. Thereafter, we will attempt to forecast temperature changes using two popular techniques."
+image: /images/banners/temperature.png
 ---
 
 ## Contents

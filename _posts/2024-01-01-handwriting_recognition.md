@@ -5,6 +5,7 @@ date:   2024-01-01 22:31:08 +0800
 category: [data_wrangling, visualization, deep_learning]
 tag: [numpy, pandas, cv2, matplotlib, tensorflow, nlp, computer_vision, flask]
 summary: "In this notebook we build and deploy a flask web application to detect and recognise handwritten words from an image."
+image: /images/banners/handwriting.png
 ---
 
 ## Contents

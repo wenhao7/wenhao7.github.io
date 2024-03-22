@@ -5,6 +5,7 @@ date:   2024-01-01 22:31:10 +0800
 category: [data_analysis, misc]
 tag: [sql, fun]
 summary: "A fun little game where we play the role of a detective querying an SQL database to solve a murder mystery."
+image: /images/banners/mystery.png
 ---
 
 In this notebook we will be solving the [SQL Murder Mystery](https://mystery.knightlab.com) designed by [Knight Lab](https://knightlab.northwestern.edu), a fun little game where we have to solve the crime by querying the database.

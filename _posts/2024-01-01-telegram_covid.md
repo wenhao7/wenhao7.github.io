@@ -5,6 +5,7 @@ date:   2024-01-01 22:31:08 +0800
 category: [data_wrangling, data_analysis, visualization, misc]
 tag: [numpy, pandas, seaborn, matplotlib, scipy, nltk, nlp, statistics, scikit-learn]
 summary: "In this notebook we explore and analyse chat data of a controversial chat group where users discussed issues relating to the COVID-19 pandemic."
+image: /images/banners/telegram.png
 ---
 
 ## Contents

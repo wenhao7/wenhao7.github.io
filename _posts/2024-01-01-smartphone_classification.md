@@ -5,6 +5,7 @@ date:   2024-01-01 22:31:09 +0800
 category: [data_analysis, visualization, machine_learning]
 tag: [numpy, pandas, seaborn, matplotlib, scipy, scikit-learn, dimensionality_reduction, classification]
 summary: "In this notebook we train classification models to identify the activities and subjects from a smartphone sensor dataset."
+image: /images/banners/smartphone.png
 ---
 
 ## Contents

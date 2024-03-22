@@ -5,6 +5,7 @@ date:   2024-01-01 22:31:08 +0800
 category: [data_analysis, visualization, machine_learning]
 tag: [numpy, pandas, seaborn, matplotlib, scikit-learn, dimensionality_reduction, statistics, classification]
 summary: "This notebook explores a dataset of credit card transactions over a span of two days, analysing the data and tackling the extremely imbalanced classification problem of fraud detection." 
+image: /images/banners/fraud.png
 ---
 
 ## Contents

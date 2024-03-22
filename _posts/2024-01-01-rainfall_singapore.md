@@ -5,6 +5,7 @@ date:   2024-01-01 22:31:10 +0800
 category: [data_analysis, visualization, machine_learning, deep_learning]
 tag: [numpy, pandas, seaborn, matplotlib, nlp, scikit-learn, statistics, statsmodel, regression, forecast, tensorflow]
 summary: "In this notebook we will be exploring rainfall patterns in Singapore, showing the seasonal patterns of rainfall and how some areas of the island receive more rainfall than others. Models will also be built and tested to forecast monthly rainfall on the island."
+image: /images/banners/rain.png
 ---
 
 ## Contents
@@ -179,7 +180,7 @@ cbar = ax.figure.colorbar(im, ax=ax, format ='% .2f')
 
 
     
-![png](output_6_0.png)
+![png](/images/rainfall_singapore/output_6_0.png)
     
 
 
@@ -205,7 +206,7 @@ ax2.set_ylabel('Monthly total rainfall', color = 'salmon')
 
 
     
-![png](output_8_1.png)
+![png](/images/rainfall_singapore/output_8_1.png)
     
 
 
@@ -237,13 +238,13 @@ ax.set_ylabel('Monthly Number of Rainy Days')
 
 
     
-![png](output_10_1.png)
+![png](/images/rainfall_singapore/output_10_1.png)
     
 
 
 
     
-![png](output_10_2.png)
+![png](/images/rainfall_singapore/output_10_2.png)
     
 
 
@@ -288,13 +289,13 @@ fig.suptitle('Monthly Number of Rainy Days', fontsize = 18)
 
 
     
-![png](output_12_1.png)
+![png](/images/rainfall_singapore/output_12_1.png)
     
 
 
 
     
-![png](output_12_2.png)
+![png](/images/rainfall_singapore/output_12_2.png)
     
 
 
@@ -361,25 +362,25 @@ fig4 = plot_pacf(training_set['seasonal'].dropna()) # AR(1) , P = 1
 
 
     
-![png](output_18_0.png)
+![png](/images/rainfall_singapore/output_18_0.png)
     
 
 
 
     
-![png](output_18_1.png)
+![png](/images/rainfall_singapore/output_18_1.png)
     
 
 
 
     
-![png](output_18_2.png)
+![png](/images/rainfall_singapore/output_18_2.png)
     
 
 
 
     
-![png](output_18_3.png)
+![png](/images/rainfall_singapore/output_18_3.png)
     
 
 
@@ -444,7 +445,7 @@ fig5.show()
 
 
     
-![png](output_22_0.png)
+![png](/images/rainfall_singapore/output_22_0.png)
     
 
 
@@ -482,7 +483,7 @@ ax.fill_between(ci.index[408:], ci['lower total_rainfall'][408:], ci['upper tota
 
 
     
-![png](output_24_2.png)
+![png](/images/rainfall_singapore/output_24_2.png)
     
 
 
@@ -529,7 +530,7 @@ ax.fill_between(ci.index[432:], ci['lower total_rainfall'][432:], ci['upper tota
 
 
     
-![png](output_26_2.png)
+![png](/images/rainfall_singapore/output_26_2.png)
     
 
 
@@ -570,7 +571,7 @@ ax.fill_between(df_ets_v.index[:-1], df_ets_v['pi_lower'][:-1], df_ets_v['pi_upp
 
 
     
-![png](output_28_2.png)
+![png](/images/rainfall_singapore/output_28_2.png)
     
 
 
@@ -609,7 +610,7 @@ ax.fill_between(df_ets_t.index[:-1], df_ets_t['pi_lower'][:-1], df_ets_t['pi_upp
 
 
     
-![png](output_30_2.png)
+![png](/images/rainfall_singapore/output_30_2.png)
     
 
 
@@ -680,7 +681,7 @@ ax.set_ylabel('RMSE')
 
 
     
-![png](output_32_1.png)
+![png](/images/rainfall_singapore/output_32_1.png)
     
 
 
@@ -891,13 +892,13 @@ ax.legend()
 
 
     
-![png](output_34_2.png)
+![png](/images/rainfall_singapore/output_34_2.png)
     
 
 
 
     
-![png](output_34_3.png)
+![png](/images/rainfall_singapore/output_34_3.png)
     
 
 
@@ -1100,7 +1101,7 @@ ax.legend()
 
 
     
-![png](output_36_2.png)
+![png](/images/rainfall_singapore/output_36_2.png)
     
 
 
@@ -1143,7 +1144,7 @@ ax.legend()
 
 
     
-![png](output_37_2.png)
+![png](/images/rainfall_singapore/output_37_2.png)
     
 
 
@@ -1242,13 +1243,13 @@ ax.legend()
 
 
     
-![png](output_39_2.png)
+![png](/images/rainfall_singapore/output_39_2.png)
     
 
 
 
     
-![png](output_39_3.png)
+![png](/images/rainfall_singapore/output_39_3.png)
     
 
 
@@ -1291,13 +1292,13 @@ ax.legend()
 
 
     
-![png](output_41_1.png)
+![png](/images/rainfall_singapore/output_41_1.png)
     
 
 
 
     
-![png](output_41_2.png)
+![png](/images/rainfall_singapore/output_41_2.png)
     
 
 
@@ -1490,13 +1491,13 @@ ax.set_ylabel('Mean Daily Rainfall Per Month (mm)')
 
 
     
-![png](output_53_1.png)
+![png](/images/rainfall_singapore/output_53_1.png)
     
 
 
 
     
-![png](output_53_2.png)
+![png](/images/rainfall_singapore/output_53_2.png)
     
 
 
@@ -1539,13 +1540,13 @@ ax.set_ylabel('Mean Daily Rainfall Per Month (mm)')
 
 
     
-![png](output_55_1.png)
+![png](/images/rainfall_singapore/output_55_1.png)
     
 
 
 
     
-![png](output_55_2.png)
+![png](/images/rainfall_singapore/output_55_2.png)
     
 
 

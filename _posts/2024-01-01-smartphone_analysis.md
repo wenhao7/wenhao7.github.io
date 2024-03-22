@@ -5,6 +5,7 @@ date:   2024-01-01 22:31:08 +0800
 category: [data_analysis, visualization]
 tag: [numpy, pandas, seaborn, matplotlib, scipy, dimensionality_reduction, statistics]
 summary: "In this notebook we will be analysing smartphone sensors data collected from an experiment and analysing the information retrieved from the data, studying the extent that these data can be used to identify the user."
+image: /images/banners/smartphone.png
 ---
 
 ## Contents

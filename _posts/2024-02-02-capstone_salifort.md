@@ -5,6 +5,7 @@ date:   2024-02-02 14:31:08 +0800
 category: [data_analysis, visualization, machine_learning]
 tag: [numpy, pandas, seaborn, matplotlib, scikit-learn, classification]
 summary: "Capstone project for Google's Advanced Data Analytics Course on Coursera, simulating a scenario where the HR department of a large consulting firm is looking for insights from our data analysis and predictions on employee churn data."
+image: /images/banners/hr.png
 ---
 
 # **Capstone project: Providing data-driven suggestions for HR**

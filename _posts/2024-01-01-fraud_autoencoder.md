@@ -6,6 +6,7 @@ category: [data_analysis, visualization, deep_learning]
 tag: [numpy, pandas, seaborn, matplotlib, scikit-learn, statistics, scipy, tensorflow, classification, dimensionality_reduction]
 summary: "In this notebook we will be using an autoencoder on the fraud dataset used in a previous notebook for novelty detection. Novelty detection refers to the identification of new or unknown signals not available to a machine learning system during training. In this case it refers to training a machine learning model only on normal(non-fradulent) transactions data but the resultant model has the ability to recognise fraudulent transactions.
 "
+image: /images/banners/fraud.png
 ---
 
 ## Contents
