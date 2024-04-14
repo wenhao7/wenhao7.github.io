@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "# Anime webscraping - Part 2"
+title:  "Anime webscraping - Part 2"
 date:   2024-04-14 17:57:09 +0800
 category: [data_wrangling, misc]
 tag: [requests, bs4, html, webscrape, numpy, pandas, fun]
