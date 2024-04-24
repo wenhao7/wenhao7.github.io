@@ -4,7 +4,7 @@ title:  "Object Detection with YOLOv8 for Product Images"
 date:   2024-04-22 16:31:09 +0800
 category: [machine_learning, deep_learning, misc]
 tag: [numpy, pytorch, transfer_learning, classification, object_detection, computer_vision, automation]
-summary: "In this notebook we will be exploring the IMDB dataset available on Kaggle, containing 50,000 reviews categorised as either positive or negative reviews. A text classification model will then be fine-tuned over DistilBERT and evaluated."
+summary: "Global retail e-commerce sales reached an estimated 5.8 trillion USD in 2023. A major component of retail e-commerce are the products and the product images that showcases these products to the customers. With the number of platforms that sellers can promote their wide inventory of products, tailoring high quality product images for each platform may be a menial task consuming significant man-hours. With the help of YOLOv8 by ultralytics I aim to automate the creation of these product images."
 image: /images/banners/object_detection_poc.png
 ---
 
