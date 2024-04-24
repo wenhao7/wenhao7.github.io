@@ -1,0 +1,61 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+title: Featured
+permalink: /featured/
+exclude: false
+---
+
+<h2> Featured Posts </h2>
+{% assign filtered_posts = site.posts | where: 'tag', 'featured' %}
+<ul>
+{% for post in filtered_posts %}
+    <li>
+		<img src="{{post.image | relative_url }}">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+			{%- if post.summary -%}
+				{{ post.summary }}
+			{%- elsif post.excerpt -%}
+				{{ post.excerpt }}
+			{%- endif -%}
+        {%- endif -%}
+		<div class="post-categories">
+			  {% if post %}
+				{% assign categories = post.categories %}
+			  {% endif %}
+			  Categories: 
+			  {% for category in categories %}
+			  <a href="{{site.baseurl}}/category/{{category|slugize}}">{{category}}</a>
+			  {% unless forloop.last %},&nbsp;{% endunless %}
+			  {% endfor %}
+		</div>
+      </li>
+	<br><hr><br>
+{% endfor %}
+</ul>
+
+
+{% capture temptags %}
+  {% for tag in site.tags %}
+    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+{% for temptag in sortedtemptags %}
+  {% assign tagitems = temptag | split: '#' %}
+  {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
+  <a href="/tag/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname    }}</nobr></code></a>
+  <!--<a href="/tag/{{ tagname }}">
+	<span style="background-color:#007F73; border:2px solid #007F73; border-radius: 5px; color:#F5FCCD">
+		{{	tagname		}}
+	</span></a>-->
+{% endfor %}

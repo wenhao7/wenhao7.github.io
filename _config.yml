@@ -63,6 +63,7 @@ show_excerpts: true
 
 header_files:
     - about.markdown
+    - all.md
     - categories.md
     - tags.md
     
