@@ -5,7 +5,7 @@ date:   2024-04-24 16:11:09 +0800
 category: [machine_learning, deep_learning, misc]
 tag: [numpy, pytorch, transfer_learning, classification, object_detection, computer_vision, automation, featured]
 summary: "In a [previous notebook](https://wenhao7.github.io/machine_learning/deep_learning/misc/2024/04/22/object_detection_poc.html) we have taken a look at how e-commerce product photos can be automatically processed into various resolutions for different purposes. Now we are going to explore building a simple application using Python to utilize the ideas that we have implemented. A copy of the code to this application can be found on [its repository](https://github.com/wenhao7/PyPIET/tree/main)."
-image: /images/banners/pypiet.png
+image: /images/banners/pypietbanner.png
 ---
 
 ## Contents
