@@ -4,7 +4,7 @@ title:  "Anime webscraping - Part 1"
 date:   2024-04-12 17:57:09 +0800
 category: [data_wrangling, misc]
 tag: [requests, bs4, html, api, webscrape, numpy, pandas, fun]
-summary: "In this notebook we be scrape a popular anime database/community [MyAnimeList](https://myanimelist.net), aiming to collect enough raw data from the anime titles available on the website for further processing and learning purposes."
+summary: "In this notebook we be scrape a popular anime database/community MyAnimeList, aiming to collect enough raw data from the anime titles available on the website for further processing and learning purposes."
 image: /images/banners/mal.png
 ---
 
