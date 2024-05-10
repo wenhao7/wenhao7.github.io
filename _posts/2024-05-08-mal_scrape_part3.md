@@ -4,7 +4,7 @@ title:  "Anime webscraping - Part 3"
 date:   2024-05-08 17:57:09 +0800
 category: [data_wrangling, misc]
 tag: [requests, bs4, html, webscrape, pandas, multiprocessing, fun]
-summary: "In this notebook we be scrape a popular anime database/community MyAnimeList, aiming to collect enough raw data from the anime titles available on the website for further processing and learning purposes."
+summary: "In Part 3 of these notebooks we will improve our previous implementations and approaches to webscraping the popular anime database/community site MyAnimeList, discussing some limitations with the previous approaches and implementing their solutions"
 image: /images/banners/mal.png
 ---
 
