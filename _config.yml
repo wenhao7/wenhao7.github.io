@@ -34,6 +34,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -60,12 +61,6 @@ collections:
         output: true
 
 show_excerpts: true
-
-header_files:
-    - about.markdown
-    - all.md
-    - categories.md
-    - tags.md
     
 paginate: 5
 paginate_path: /page:num/

@@ -3,7 +3,7 @@ layout: post
 title:  "Dirty Data Samples - Cleaning Data With Pandas - Part 2"
 date:   2024-04-05 17:57:09 +0800
 category: [data_wrangling, misc]
-tag: [numpy, pandas, fun, featured]
+tag: [numpy, pandas, fun]
 summary: "In this notebook we will explore 4 dirty datasets sourced from the internet that has data incorrectly recorded and clean them using Pandas package in Python."
 image: /images/banners/data_cleaning.png
 ---

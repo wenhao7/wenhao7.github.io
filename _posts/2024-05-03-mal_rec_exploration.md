@@ -3,7 +3,7 @@ layout: post
 title:  "Exploring Anime Recommendation System Approaches"
 date:   2024-05-03 13:57:09 +0800
 category: [data_analysis, machine_learning, visualization, misc]
-tag: [numpy, pandas, seaborn, statistics scipy, nltk, scikit-learn, multiprocessing, math, matplotlib, nlp, recommendation, featured, dimensionality_reduction]
+tag: [numpy, pandas, seaborn, statistics scipy, nltk, scikit-learn, multiprocessing, math, matplotlib, nlp, recommendation, dimensionality_reduction]
 summary: "In this notebook we will be exploring recommendation systems using 3 different approaches, applying them to data we have scraped from a popular anime database/community website."
 image: /images/banners/mal_rec.png
 ---
