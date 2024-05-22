@@ -12,7 +12,7 @@
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
-              <a class="footer-heading" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+              <a class="footer-heading" href="{{ "/about" | relative_url }}">{{ site.title | escape }}</a>
             {%- endif -%}
             </li>
             {%- if site.email -%}

@@ -45,7 +45,7 @@ pre, code { font-size: 15px; border: 1px solid #e8e8e8; border-radius: 3px; back
 code { padding: 1px 5px; }
 
 pre { padding: 8px 12px; overflow-x: auto; }
-pre > code { border: 0; padding-right: 0; padding-left: 0; }
+pre > code { border: 0; padding-right: 0; padding-left: 0; }  
 
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(1200px - (30px * 2)); max-width: calc(1200px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
@@ -136,9 +136,10 @@ table td { border: 1px solid #e8e8e8; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
-.highlighter-rouge .highlight { background: #eef; }
+.highlighter-rouge { background: #eef;}
+.highlighter-tag { color: #F5FCCD; background: #419197;} 
 .highlight .c { color: #998; font-style: italic; }
-.highlight .err { color: #a61717; background-color: #e3d2d2; }
+.highlight .err { color: #a61717; background-color: #e3d2d2; } 
 .highlight .k { font-weight: bold; }
 .highlight .o { font-weight: bold; }
 .highlight .cm { color: #998; font-style: italic; }
@@ -200,3 +201,50 @@ table td { border: 1px solid #e8e8e8; }
 /** Icons */
 .svg-icon { width: 16px; height: 16px; display: inline-block; fill: #828282; padding-right: 5px; vertical-align: text-top; }
 
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+ 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;} 
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}  
+
+
+/* About me page, Title and Date fonts formatting */ 
+.about {text-align:left; font-size:20px; background-color:#12486B; border-top:5px solid #419197; border-radius: 5px; color:#F5FCCD; padding-left: 10px; }
+
+.about-date {float:right; font-size:16px; text-align: right; padding-right: 10px; }

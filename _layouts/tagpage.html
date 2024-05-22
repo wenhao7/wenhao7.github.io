@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-<h2> List of posts under tag: {{ page.tagname }} </h2>
+<h2> Posts listed under tag: <code class="highlighter-tag"><nobr>{{ page.tagname }}</nobr></code> </h2>
 {% assign filtered_posts = site.posts | where: 'tag', page.tagname %}
 <ul>
 {% for post in filtered_posts %}
@@ -48,7 +48,7 @@ layout: default
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <a href="/tag/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname    }}</nobr></code></a>
+  <a href="/tag/{{ tagname }}"><code class="highlighter-tag"><nobr>{{ tagname    }}</nobr></code></a>
   <!--<a href="/tag/{{ tagname }}">
 	<span style="background-color:#007F73; border:2px solid #007F73; border-radius: 5px; color:#F5FCCD">
 		{{	tagname		}}
