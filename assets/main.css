@@ -21,7 +21,7 @@ figcaption { font-size: 14px; }
 /** Lists */
 ul, ol { margin-left: 30px; }
 
-ul { list-style-type: none; }
+ul { list-style-type: none; }  
 
 li > ul, li > ol { margin-bottom: 0; }
 
@@ -33,7 +33,7 @@ a { color: #2a7ae2; text-decoration: none; }
 a:visited { color: #1756a9; }
 a:hover { color: #111; text-decoration: underline; }
 .social-media-list a:hover { text-decoration: none; }
-.social-media-list a:hover .username { text-decoration: underline; }
+.social-media-list a:hover .username { text-decoration: underline;}
 
 /** Blockquotes */
 blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style: italic; }
@@ -92,6 +92,10 @@ table td { border: 1px solid #e8e8e8; }
 .footer-heading { font-size: 18px; margin-bottom: 15px;  color:#78D6C6;}
 
 .contact-list, .social-media-list { list-style: none; margin-left: 0;}
+
+.u-email {color: #78D6C6;}
+
+.u-name {color: #78D6C6;}
 
 .footer-col-wrapper { font-size: 15px; color: #78D6C6; margin-left: -15px; }
 
