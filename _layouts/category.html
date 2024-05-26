@@ -2,7 +2,7 @@
 layout: default
 ---
     
-<h2> List of posts under category: {{ page.catname }} </h2>
+<h2> List of posts under category: {{ page.catname | replace: "_", " " | capitalize}} </h2>
 {% assign filtered_posts = site.posts | where: 'category', page.catname %}
 <ul>
 {% for post in filtered_posts %}
@@ -29,7 +29,7 @@ layout: default
 			  Categories: 
 			  {% for category in categories %}
 			  <a href="{{site.baseurl}}/category/{{category|slugize}}">
-				{{category}}
+				{{category | replace: "_", " " | capitalize}}
 				</a>
 			  <!--<a href="{{site.baseurl}}/category/{{category|slugize}}">
 				<span style="background-color:#12486B; border:2px solid #12486B; border-radius: 5px; color:#F5FCCD">

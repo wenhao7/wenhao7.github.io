@@ -29,7 +29,7 @@ layout: default
 			  {% endif %}
 			  Categories: 
 			  {% for category in categories %}
-			  <a href="{{site.baseurl}}/category/{{category|slugize}}">{{category}}</a>
+			  <a href="{{site.baseurl}}/category/{{category|slugize}}">{{category | replace: "_", " " | capitalize}}</a>
 			  {% unless forloop.last %},&nbsp;{% endunless %}
 			  {% endfor %}
 		</div>
