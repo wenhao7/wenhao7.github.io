@@ -3,7 +3,7 @@ layout: post
 title:  "Bank Churn Exploration and Binary Classification"
 date:   2024-03-15 22:31:09 +0800
 category: [data_analysis, visualization, machine_learning]
-tag: [numpy, pandas, seaborn, matplotlib, scikit-learn, classification]
+tag: [numpy, pandas, seaborn, matplotlib, scikit-learn, classification, kaggle, competition]
 summary: "In this notebook we will explore a synthetic bank customer churn dataset used in a Kaggle community prediction competition, treating this like a real world problem and avoiding the use of any performance-boosting tricks that is are only specific to this competition dataset (i.e. utilizing data leakages due to the syntheticity of the data."
 image: /images/banners/bank.png
 ---

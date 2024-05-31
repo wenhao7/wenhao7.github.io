@@ -3,7 +3,7 @@ layout: post
 title:  "Multi-Class Prediction of Obesity Risk"
 date:   2024-03-13 22:31:09 +0800
 category: [data_analysis, visualization, machine_learning]
-tag: [numpy, pandas, seaborn, matplotlib, scikit-learn, classification]
+tag: [numpy, pandas, seaborn, matplotlib, scikit-learn, classification, kaggle, competition]
 summary: "In this notebook we take a look at a [Kaggle Playground Series](https://www.kaggle.com/competitions/playground-series-s4e2) competition where users submit their predictions for a multi-class classification problem on the sample's weight class."
 image: /images/banners/obesity.png
 ---
