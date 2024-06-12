@@ -21,7 +21,7 @@ figcaption { font-size: 14px; }
 /** Lists */
 ul, ol { margin-left: 30px; }
 
-ul { list-style-type: none; }
+ul { list-style-type: none; } 
 
 li > ul, li > ol { margin-bottom: 0; }
 
